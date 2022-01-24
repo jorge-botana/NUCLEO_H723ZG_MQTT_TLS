@@ -1,0 +1,828 @@
+---------------------------------------------------------------------------------
+INFORMACIÓN SOBRE LICENCIAS
+
+En este fichero se especifica la licencia aplicada a cada uno de los archivos del
+repositorio, incluyendo el propio archivo de licencia, al que aplicarán todas las
+licencias usadas:
+
+/LICENSE.txt
+
+Nota 1: en algunos contados casos, la licencia de un archivo puede no coincidir
+con la aplicada, pero esta última será compatible. Por ejemplo, lwIP cuenta con
+licencia 3-Clause BSD, pero algún archivo de esta cuenta con licencia MIT.
+Entonces se aplicará la licencia 3-Clause BSD a todos los archivos de lwIP.
+
+Nota 2: mbedTLS se distribuye con licencia GNU GPL 2.0 o con licencia Apache 2.0.
+Se escoge la última, al ser menos restrictiva.
+---------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------
+MIT License
+
+Copyright (c) 2021 Jorge Botana Mtz. de Ibarreta
+
+/.cproject
+/.project
+/.settings/language.settings.xml
+/README.md
+/Application/include/hw.h
+/Application/include/sw.h
+/Application/include/cfg/certificates.h
+/Application/include/cfg/settings.h
+/Application/include/cfg/setup.h
+/Application/include/hw/gpio.h
+/Application/include/hw/misc.h
+/Application/include/hw/mpu.h
+/Application/include/hw/rcc.h
+/Application/include/hw/rng.h
+/Application/include/hw/rtc.h
+/Application/include/hw/tim.h
+/Application/include/hw/uart.h
+/Application/include/sw/dhcp_client.h
+/Application/include/sw/dns_client.h
+/Application/include/sw/mqtt_client.h
+/Application/include/sw/ntp_client.h
+/Application/include/sw/tcpip_setup.h
+/Application/include/sw/tcp_client.h
+/Application/include/sw/tls_client.h
+/Application/include/sw/udp_client.h
+/Application/source/hw.c
+/Application/source/main.c
+/Application/source/sw.c
+/Application/source/hw/gpio.c
+/Application/source/hw/irq.c
+/Application/source/hw/misc.c
+/Application/source/hw/mpu.c
+/Application/source/hw/rcc.c
+/Application/source/hw/rng.c
+/Application/source/hw/rtc.c
+/Application/source/hw/tim.c
+/Application/source/hw/uart.c
+/Application/source/sw/dhcp_client.c
+/Application/source/sw/dns_client.c
+/Application/source/sw/mqtt_client.c
+/Application/source/sw/ntp_client.c
+/Application/source/sw/tcpip_setup.c
+/Application/source/sw/tcp_client.c
+/Application/source/sw/tls_client.c
+/Application/source/sw/udp_client.c
+
+Copyright (C) 2021 Amazon.com, Inc. or its affiliates.
+All Rights Reserved.
+
+/Application/include/cfg/FreeRTOSConfig.h
+/Libraries/FreeRTOS/croutine.c
+/Libraries/FreeRTOS/event_groups.c
+/Libraries/FreeRTOS/list.c
+/Libraries/FreeRTOS/queue.c
+/Libraries/FreeRTOS/stream_buffer.c
+/Libraries/FreeRTOS/tasks.c
+/Libraries/FreeRTOS/timers.c
+/Libraries/FreeRTOS/include/atomic.h
+/Libraries/FreeRTOS/include/croutine.h
+/Libraries/FreeRTOS/include/deprecated_definitions.h
+/Libraries/FreeRTOS/include/event_groups.h
+/Libraries/FreeRTOS/include/FreeRTOS.h
+/Libraries/FreeRTOS/include/list.h
+/Libraries/FreeRTOS/include/message_buffer.h
+/Libraries/FreeRTOS/include/mpu_prototypes.h
+/Libraries/FreeRTOS/include/mpu_wrappers.h
+/Libraries/FreeRTOS/include/portable.h
+/Libraries/FreeRTOS/include/projdefs.h
+/Libraries/FreeRTOS/include/queue.h
+/Libraries/FreeRTOS/include/semphr.h
+/Libraries/FreeRTOS/include/StackMacros.h
+/Libraries/FreeRTOS/include/stack_macros.h
+/Libraries/FreeRTOS/include/stdint.readme
+/Libraries/FreeRTOS/include/stream_buffer.h
+/Libraries/FreeRTOS/include/task.h
+/Libraries/FreeRTOS/include/timers.h
+/Libraries/FreeRTOS/portable/GCC/ARM_CM7/ReadMe.txt
+/Libraries/FreeRTOS/portable/GCC/ARM_CM7/r0p1/port.c
+/Libraries/FreeRTOS/portable/GCC/ARM_CM7/r0p1/portmacro.h
+/Libraries/FreeRTOS/portable/MemMang/heap_4.c
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of
+this software and associated documentation files (the "Software"), to deal in the
+Software without restriction, including without limitation the rights to use,
+copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the
+Software, and to permit persons to whom the Software is furnished to do so,
+subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
+FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
+COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN
+AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+---------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------
+3-Clause BSD License
+
+Copyright (c) 2017 - 2021 STMicroelectronics.
+All rights reserved.
+
+/STM32H723ZGTX_FLASH.ld
+/Application/include/cfg/stm32h7xx_hal_conf.h
+/Application/include/hw/ethernetif.h
+/Application/source/hw/ethernetif.c
+/Application/source/sys/syscalls.c
+/Application/source/sys/sysmem.c
+/Application/startup/startup_stm32h723zgtx.s
+/Libraries/CMSIS/Core/Device/stm32h723xx.h
+/Libraries/CMSIS/Core/Device/stm32h7xx.h
+/Libraries/CMSIS/Core/Device/system_stm32h7xx.c
+/Libraries/CMSIS/Core/Device/system_stm32h7xx.h
+/Libraries/STM32H7/HAL/Inc/stm32h7xx_hal.h
+/Libraries/STM32H7/HAL/Inc/stm32h7xx_hal_cortex.h
+/Libraries/STM32H7/HAL/Inc/stm32h7xx_hal_def.h
+/Libraries/STM32H7/HAL/Inc/stm32h7xx_hal_dma.h
+/Libraries/STM32H7/HAL/Inc/stm32h7xx_hal_dma_ex.h
+/Libraries/STM32H7/HAL/Inc/stm32h7xx_hal_eth.h
+/Libraries/STM32H7/HAL/Inc/stm32h7xx_hal_eth_ex.h
+/Libraries/STM32H7/HAL/Inc/stm32h7xx_hal_flash.h
+/Libraries/STM32H7/HAL/Inc/stm32h7xx_hal_flash_ex.h
+/Libraries/STM32H7/HAL/Inc/stm32h7xx_hal_gpio.h
+/Libraries/STM32H7/HAL/Inc/stm32h7xx_hal_gpio_ex.h
+/Libraries/STM32H7/HAL/Inc/stm32h7xx_hal_pwr.h
+/Libraries/STM32H7/HAL/Inc/stm32h7xx_hal_pwr_ex.h
+/Libraries/STM32H7/HAL/Inc/stm32h7xx_hal_rcc.h
+/Libraries/STM32H7/HAL/Inc/stm32h7xx_hal_rcc_ex.h
+/Libraries/STM32H7/HAL/Inc/stm32h7xx_hal_rng.h
+/Libraries/STM32H7/HAL/Inc/stm32h7xx_hal_rng_ex.h
+/Libraries/STM32H7/HAL/Inc/stm32h7xx_hal_rtc.h
+/Libraries/STM32H7/HAL/Inc/stm32h7xx_hal_rtc_ex.h
+/Libraries/STM32H7/HAL/Inc/stm32h7xx_hal_tim.h
+/Libraries/STM32H7/HAL/Inc/stm32h7xx_hal_tim_ex.h
+/Libraries/STM32H7/HAL/Inc/stm32h7xx_hal_uart.h
+/Libraries/STM32H7/HAL/Inc/stm32h7xx_hal_uart_ex.h
+/Libraries/STM32H7/HAL/Inc/Legacy/stm32_hal_legacy.h
+/Libraries/STM32H7/HAL/Src/stm32h7xx_hal.c
+/Libraries/STM32H7/HAL/Src/stm32h7xx_hal_cortex.c
+/Libraries/STM32H7/HAL/Src/stm32h7xx_hal_dma.c
+/Libraries/STM32H7/HAL/Src/stm32h7xx_hal_dma_ex.c
+/Libraries/STM32H7/HAL/Src/stm32h7xx_hal_eth.c
+/Libraries/STM32H7/HAL/Src/stm32h7xx_hal_eth_ex.c
+/Libraries/STM32H7/HAL/Src/stm32h7xx_hal_flash.c
+/Libraries/STM32H7/HAL/Src/stm32h7xx_hal_flash_ex.c
+/Libraries/STM32H7/HAL/Src/stm32h7xx_hal_gpio.c
+/Libraries/STM32H7/HAL/Src/stm32h7xx_hal_pwr.c
+/Libraries/STM32H7/HAL/Src/stm32h7xx_hal_pwr_ex.c
+/Libraries/STM32H7/HAL/Src/stm32h7xx_hal_rcc.c
+/Libraries/STM32H7/HAL/Src/stm32h7xx_hal_rcc_ex.c
+/Libraries/STM32H7/HAL/Src/stm32h7xx_hal_rng.c
+/Libraries/STM32H7/HAL/Src/stm32h7xx_hal_rng_ex.c
+/Libraries/STM32H7/HAL/Src/stm32h7xx_hal_rtc.c
+/Libraries/STM32H7/HAL/Src/stm32h7xx_hal_rtc_ex.c
+/Libraries/STM32H7/HAL/Src/stm32h7xx_hal_tim.c
+/Libraries/STM32H7/HAL/Src/stm32h7xx_hal_tim_ex.c
+/Libraries/STM32H7/HAL/Src/stm32h7xx_hal_uart.c
+/Libraries/STM32H7/HAL/Src/stm32h7xx_hal_uart_ex.c
+/Libraries/STM32H7/LAN8742/lan8742.c
+/Libraries/STM32H7/LAN8742/lan8742.h
+
+Copyright (c) 2001 - 2018 Swedish Institute of Computer Science.
+All rights reserved. 
+
+UNLESS OTHER COPYRIGHT SPECIFIED IN FILE.
+
+/Application/include/cfg/lwipopts.h
+/Libraries/lwIP/src/Filelists.cmake
+/Libraries/lwIP/src/Filelists.mk
+/Libraries/lwIP/src/FILES
+/Libraries/lwIP/src/api/api_lib.c
+/Libraries/lwIP/src/api/api_msg.c
+/Libraries/lwIP/src/api/err.c
+/Libraries/lwIP/src/api/if_api.c
+/Libraries/lwIP/src/api/netbuf.c
+/Libraries/lwIP/src/api/netdb.c
+/Libraries/lwIP/src/api/netifapi.c
+/Libraries/lwIP/src/api/sockets.c
+/Libraries/lwIP/src/api/tcpip.c
+/Libraries/lwIP/src/core/altcp.c
+/Libraries/lwIP/src/core/altcp_alloc.c
+/Libraries/lwIP/src/core/altcp_tcp.c
+/Libraries/lwIP/src/core/def.c
+/Libraries/lwIP/src/core/dns.c
+/Libraries/lwIP/src/core/inet_chksum.c
+/Libraries/lwIP/src/core/init.c
+/Libraries/lwIP/src/core/ip.c
+/Libraries/lwIP/src/core/mem.c
+/Libraries/lwIP/src/core/memp.c
+/Libraries/lwIP/src/core/netif.c
+/Libraries/lwIP/src/core/pbuf.c
+/Libraries/lwIP/src/core/raw.c
+/Libraries/lwIP/src/core/stats.c
+/Libraries/lwIP/src/core/sys.c
+/Libraries/lwIP/src/core/tcp.c
+/Libraries/lwIP/src/core/tcp_in.c
+/Libraries/lwIP/src/core/tcp_out.c
+/Libraries/lwIP/src/core/timeouts.c
+/Libraries/lwIP/src/core/udp.c
+/Libraries/lwIP/src/core/ipv4/autoip.c
+/Libraries/lwIP/src/core/ipv4/dhcp.c
+/Libraries/lwIP/src/core/ipv4/etharp.c
+/Libraries/lwIP/src/core/ipv4/icmp.c
+/Libraries/lwIP/src/core/ipv4/igmp.c
+/Libraries/lwIP/src/core/ipv4/ip4.c
+/Libraries/lwIP/src/core/ipv4/ip4_addr.c
+/Libraries/lwIP/src/core/ipv4/ip4_frag.c
+/Libraries/lwIP/src/core/ipv6/dhcp6.c
+/Libraries/lwIP/src/core/ipv6/ethip6.c
+/Libraries/lwIP/src/core/ipv6/icmp6.c
+/Libraries/lwIP/src/core/ipv6/inet6.c
+/Libraries/lwIP/src/core/ipv6/ip6.c
+/Libraries/lwIP/src/core/ipv6/ip6_addr.c
+/Libraries/lwIP/src/core/ipv6/ip6_frag.c
+/Libraries/lwIP/src/core/ipv6/mld6.c
+/Libraries/lwIP/src/core/ipv6/nd6.c
+/Libraries/lwIP/src/include/compat/posix/netdb.h
+/Libraries/lwIP/src/include/compat/posix/arpa/inet.h
+/Libraries/lwIP/src/include/compat/posix/net/if.h
+/Libraries/lwIP/src/include/compat/posix/sys/socket.h
+/Libraries/lwIP/src/include/compat/stdc/errno.h
+/Libraries/lwIP/src/include/lwip/altcp.h
+/Libraries/lwIP/src/include/lwip/altcp_tcp.h
+/Libraries/lwIP/src/include/lwip/altcp_tls.h
+/Libraries/lwIP/src/include/lwip/api.h
+/Libraries/lwIP/src/include/lwip/arch.h
+/Libraries/lwIP/src/include/lwip/autoip.h
+/Libraries/lwIP/src/include/lwip/debug.h
+/Libraries/lwIP/src/include/lwip/def.h
+/Libraries/lwIP/src/include/lwip/dhcp.h
+/Libraries/lwIP/src/include/lwip/dhcp6.h
+/Libraries/lwIP/src/include/lwip/dns.h
+/Libraries/lwIP/src/include/lwip/err.h
+/Libraries/lwIP/src/include/lwip/errno.h
+/Libraries/lwIP/src/include/lwip/etharp.h
+/Libraries/lwIP/src/include/lwip/ethip6.h
+/Libraries/lwIP/src/include/lwip/icmp.h
+/Libraries/lwIP/src/include/lwip/icmp6.h
+/Libraries/lwIP/src/include/lwip/if_api.h
+/Libraries/lwIP/src/include/lwip/igmp.h
+/Libraries/lwIP/src/include/lwip/inet.h
+/Libraries/lwIP/src/include/lwip/inet_chksum.h
+/Libraries/lwIP/src/include/lwip/init.h
+/Libraries/lwIP/src/include/lwip/init.h.cmake.in
+/Libraries/lwIP/src/include/lwip/ip.h
+/Libraries/lwIP/src/include/lwip/ip4.h
+/Libraries/lwIP/src/include/lwip/ip4_addr.h
+/Libraries/lwIP/src/include/lwip/ip4_frag.h
+/Libraries/lwIP/src/include/lwip/ip6.h
+/Libraries/lwIP/src/include/lwip/ip6_addr.h
+/Libraries/lwIP/src/include/lwip/ip6_frag.h
+/Libraries/lwIP/src/include/lwip/ip6_zone.h
+/Libraries/lwIP/src/include/lwip/ip_addr.h
+/Libraries/lwIP/src/include/lwip/mem.h
+/Libraries/lwIP/src/include/lwip/memp.h
+/Libraries/lwIP/src/include/lwip/mld6.h
+/Libraries/lwIP/src/include/lwip/nd6.h
+/Libraries/lwIP/src/include/lwip/netbuf.h
+/Libraries/lwIP/src/include/lwip/netdb.h
+/Libraries/lwIP/src/include/lwip/netif.h
+/Libraries/lwIP/src/include/lwip/netifapi.h
+/Libraries/lwIP/src/include/lwip/opt.h
+/Libraries/lwIP/src/include/lwip/pbuf.h
+/Libraries/lwIP/src/include/lwip/raw.h
+/Libraries/lwIP/src/include/lwip/sio.h
+/Libraries/lwIP/src/include/lwip/snmp.h
+/Libraries/lwIP/src/include/lwip/sockets.h
+/Libraries/lwIP/src/include/lwip/stats.h
+/Libraries/lwIP/src/include/lwip/sys.h
+/Libraries/lwIP/src/include/lwip/tcp.h
+/Libraries/lwIP/src/include/lwip/tcpbase.h
+/Libraries/lwIP/src/include/lwip/tcpip.h
+/Libraries/lwIP/src/include/lwip/timeouts.h
+/Libraries/lwIP/src/include/lwip/udp.h
+/Libraries/lwIP/src/include/lwip/apps/altcp_proxyconnect.h
+/Libraries/lwIP/src/include/lwip/apps/altcp_tls_mbedtls_opts.h
+/Libraries/lwIP/src/include/lwip/apps/FILES
+/Libraries/lwIP/src/include/lwip/apps/fs.h
+/Libraries/lwIP/src/include/lwip/apps/httpd.h
+/Libraries/lwIP/src/include/lwip/apps/httpd_opts.h
+/Libraries/lwIP/src/include/lwip/apps/http_client.h
+/Libraries/lwIP/src/include/lwip/apps/lwiperf.h
+/Libraries/lwIP/src/include/lwip/apps/mdns.h
+/Libraries/lwIP/src/include/lwip/apps/mdns_opts.h
+/Libraries/lwIP/src/include/lwip/apps/mdns_priv.h
+/Libraries/lwIP/src/include/lwip/apps/mqtt.h
+/Libraries/lwIP/src/include/lwip/apps/mqtt_opts.h
+/Libraries/lwIP/src/include/lwip/apps/mqtt_priv.h
+/Libraries/lwIP/src/include/lwip/apps/netbiosns.h
+/Libraries/lwIP/src/include/lwip/apps/netbiosns_opts.h
+/Libraries/lwIP/src/include/lwip/apps/smtp.h
+/Libraries/lwIP/src/include/lwip/apps/smtp_opts.h
+/Libraries/lwIP/src/include/lwip/apps/snmp.h
+/Libraries/lwIP/src/include/lwip/apps/snmpv3.h
+/Libraries/lwIP/src/include/lwip/apps/snmp_core.h
+/Libraries/lwIP/src/include/lwip/apps/snmp_mib2.h
+/Libraries/lwIP/src/include/lwip/apps/snmp_opts.h
+/Libraries/lwIP/src/include/lwip/apps/snmp_scalar.h
+/Libraries/lwIP/src/include/lwip/apps/snmp_snmpv2_framework.h
+/Libraries/lwIP/src/include/lwip/apps/snmp_snmpv2_usm.h
+/Libraries/lwIP/src/include/lwip/apps/snmp_table.h
+/Libraries/lwIP/src/include/lwip/apps/snmp_threadsync.h
+/Libraries/lwIP/src/include/lwip/apps/sntp.h
+/Libraries/lwIP/src/include/lwip/apps/sntp_opts.h
+/Libraries/lwIP/src/include/lwip/apps/tftp_opts.h
+/Libraries/lwIP/src/include/lwip/apps/tftp_server.h
+/Libraries/lwIP/src/include/lwip/priv/altcp_priv.h
+/Libraries/lwIP/src/include/lwip/priv/api_msg.h
+/Libraries/lwIP/src/include/lwip/priv/memp_priv.h
+/Libraries/lwIP/src/include/lwip/priv/memp_std.h
+/Libraries/lwIP/src/include/lwip/priv/mem_priv.h
+/Libraries/lwIP/src/include/lwip/priv/nd6_priv.h
+/Libraries/lwIP/src/include/lwip/priv/raw_priv.h
+/Libraries/lwIP/src/include/lwip/priv/sockets_priv.h
+/Libraries/lwIP/src/include/lwip/priv/tcpip_priv.h
+/Libraries/lwIP/src/include/lwip/priv/tcp_priv.h
+/Libraries/lwIP/src/include/lwip/prot/autoip.h
+/Libraries/lwIP/src/include/lwip/prot/dhcp.h
+/Libraries/lwIP/src/include/lwip/prot/dhcp6.h
+/Libraries/lwIP/src/include/lwip/prot/dns.h
+/Libraries/lwIP/src/include/lwip/prot/etharp.h
+/Libraries/lwIP/src/include/lwip/prot/ethernet.h
+/Libraries/lwIP/src/include/lwip/prot/iana.h
+/Libraries/lwIP/src/include/lwip/prot/icmp.h
+/Libraries/lwIP/src/include/lwip/prot/icmp6.h
+/Libraries/lwIP/src/include/lwip/prot/ieee.h
+/Libraries/lwIP/src/include/lwip/prot/igmp.h
+/Libraries/lwIP/src/include/lwip/prot/ip.h
+/Libraries/lwIP/src/include/lwip/prot/ip4.h
+/Libraries/lwIP/src/include/lwip/prot/ip6.h
+/Libraries/lwIP/src/include/lwip/prot/mld6.h
+/Libraries/lwIP/src/include/lwip/prot/nd6.h
+/Libraries/lwIP/src/include/lwip/prot/tcp.h
+/Libraries/lwIP/src/include/lwip/prot/udp.h
+/Libraries/lwIP/src/include/netif/bridgeif.h
+/Libraries/lwIP/src/include/netif/bridgeif_opts.h
+/Libraries/lwIP/src/include/netif/etharp.h
+/Libraries/lwIP/src/include/netif/ethernet.h
+/Libraries/lwIP/src/include/netif/ieee802154.h
+/Libraries/lwIP/src/include/netif/lowpan6.h
+/Libraries/lwIP/src/include/netif/lowpan6_ble.h
+/Libraries/lwIP/src/include/netif/lowpan6_common.h
+/Libraries/lwIP/src/include/netif/lowpan6_opts.h
+/Libraries/lwIP/src/include/netif/slipif.h
+/Libraries/lwIP/src/include/netif/zepif.h
+/Libraries/lwIP/src/include/netif/ppp/ccp.h
+/Libraries/lwIP/src/include/netif/ppp/chap-md5.h
+/Libraries/lwIP/src/include/netif/ppp/chap-new.h
+/Libraries/lwIP/src/include/netif/ppp/chap_ms.h
+/Libraries/lwIP/src/include/netif/ppp/eap.h
+/Libraries/lwIP/src/include/netif/ppp/ecp.h
+/Libraries/lwIP/src/include/netif/ppp/eui64.h
+/Libraries/lwIP/src/include/netif/ppp/fsm.h
+/Libraries/lwIP/src/include/netif/ppp/ipcp.h
+/Libraries/lwIP/src/include/netif/ppp/ipv6cp.h
+/Libraries/lwIP/src/include/netif/ppp/lcp.h
+/Libraries/lwIP/src/include/netif/ppp/magic.h
+/Libraries/lwIP/src/include/netif/ppp/mppe.h
+/Libraries/lwIP/src/include/netif/ppp/ppp.h
+/Libraries/lwIP/src/include/netif/ppp/pppapi.h
+/Libraries/lwIP/src/include/netif/ppp/pppcrypt.h
+/Libraries/lwIP/src/include/netif/ppp/pppdebug.h
+/Libraries/lwIP/src/include/netif/ppp/pppoe.h
+/Libraries/lwIP/src/include/netif/ppp/pppol2tp.h
+/Libraries/lwIP/src/include/netif/ppp/pppos.h
+/Libraries/lwIP/src/include/netif/ppp/ppp_impl.h
+/Libraries/lwIP/src/include/netif/ppp/ppp_opts.h
+/Libraries/lwIP/src/include/netif/ppp/upap.h
+/Libraries/lwIP/src/include/netif/ppp/vj.h
+/Libraries/lwIP/src/include/netif/ppp/polarssl/arc4.h
+/Libraries/lwIP/src/include/netif/ppp/polarssl/des.h
+/Libraries/lwIP/src/include/netif/ppp/polarssl/md4.h
+/Libraries/lwIP/src/include/netif/ppp/polarssl/md5.h
+/Libraries/lwIP/src/include/netif/ppp/polarssl/sha1.h
+/Libraries/lwIP/src/netif/bridgeif.c
+/Libraries/lwIP/src/netif/bridgeif_fdb.c
+/Libraries/lwIP/src/netif/ethernet.c
+/Libraries/lwIP/src/netif/FILES
+/Libraries/lwIP/src/netif/lowpan6.c
+/Libraries/lwIP/src/netif/lowpan6_ble.c
+/Libraries/lwIP/src/netif/lowpan6_common.c
+/Libraries/lwIP/src/netif/slipif.c
+/Libraries/lwIP/src/netif/zepif.c
+/Libraries/lwIP/src/netif/ppp/auth.c
+/Libraries/lwIP/src/netif/ppp/ccp.c
+/Libraries/lwIP/src/netif/ppp/chap-md5.c
+/Libraries/lwIP/src/netif/ppp/chap-new.c
+/Libraries/lwIP/src/netif/ppp/chap_ms.c
+/Libraries/lwIP/src/netif/ppp/demand.c
+/Libraries/lwIP/src/netif/ppp/eap.c
+/Libraries/lwIP/src/netif/ppp/ecp.c
+/Libraries/lwIP/src/netif/ppp/eui64.c
+/Libraries/lwIP/src/netif/ppp/fsm.c
+/Libraries/lwIP/src/netif/ppp/ipcp.c
+/Libraries/lwIP/src/netif/ppp/ipv6cp.c
+/Libraries/lwIP/src/netif/ppp/lcp.c
+/Libraries/lwIP/src/netif/ppp/magic.c
+/Libraries/lwIP/src/netif/ppp/mppe.c
+/Libraries/lwIP/src/netif/ppp/multilink.c
+/Libraries/lwIP/src/netif/ppp/ppp.c
+/Libraries/lwIP/src/netif/ppp/pppapi.c
+/Libraries/lwIP/src/netif/ppp/pppcrypt.c
+/Libraries/lwIP/src/netif/ppp/PPPD_FOLLOWUP
+/Libraries/lwIP/src/netif/ppp/pppoe.c
+/Libraries/lwIP/src/netif/ppp/pppol2tp.c
+/Libraries/lwIP/src/netif/ppp/pppos.c
+/Libraries/lwIP/src/netif/ppp/upap.c
+/Libraries/lwIP/src/netif/ppp/utils.c
+/Libraries/lwIP/src/netif/ppp/vj.c
+/Libraries/lwIP/src/netif/ppp/polarssl/arc4.c
+/Libraries/lwIP/src/netif/ppp/polarssl/des.c
+/Libraries/lwIP/src/netif/ppp/polarssl/md4.c
+/Libraries/lwIP/src/netif/ppp/polarssl/md5.c
+/Libraries/lwIP/src/netif/ppp/polarssl/README
+/Libraries/lwIP/src/netif/ppp/polarssl/sha1.c
+/Libraries/lwIP/system/arch/bpstruct.h
+/Libraries/lwIP/system/arch/cc.h
+/Libraries/lwIP/system/arch/cpu.h
+/Libraries/lwIP/system/arch/epstruct.h
+/Libraries/lwIP/system/arch/init.h
+/Libraries/lwIP/system/arch/lib.h
+/Libraries/lwIP/system/arch/perf.h
+/Libraries/lwIP/system/arch/sys_arch.h
+/Libraries/lwIP/system/OS/sys_arch.c
+
+Redistribution and use in source and binary forms, with or without modification,
+are permitted provided that the following conditions are met:
+
+1. Redistributions of source code must retain the above copyright notice, this
+   list of conditions and the following disclaimer.
+
+2. Redistributions in binary form must reproduce the above copyright notice, this
+   list of conditions and the following disclaimer in the documentation and/or
+   other materials provided with the distribution.
+
+3. Neither the name of the copyright holder nor the names of its contributors may
+   be used to endorse or promote products derived from this software without
+   specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR
+ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+(INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS
+OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
+NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN
+IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+---------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------
+Apache License
+Version 2.0, January 2004
+http://www.apache.org/licenses/
+
+Copyright The Mbed TLS Contributors
+
+/Application/include/cfg/mbedTLS_config_file.h
+/Libraries/CMSIS/Core/Include/cachel1_armv7.h
+/Libraries/CMSIS/Core/Include/cmsis_compiler.h
+/Libraries/CMSIS/Core/Include/cmsis_gcc.h
+/Libraries/CMSIS/Core/Include/cmsis_version.h
+/Libraries/CMSIS/Core/Include/core_cm7.h
+/Libraries/CMSIS/Core/Include/mpu_armv7.h
+/Libraries/CMSIS/RTOS2/cmsis_os.h
+/Libraries/CMSIS/RTOS2/cmsis_os2.c
+/Libraries/CMSIS/RTOS2/cmsis_os2.h
+/Libraries/CMSIS/RTOS2/freertos_mpool.h
+/Libraries/CMSIS/RTOS2/freertos_os2.h
+/Libraries/CMSIS/RTOS2/os_tick.h
+/Libraries/mbedTLS/include/.gitignore
+/Libraries/mbedTLS/include/CMakeLists.txt
+/Libraries/mbedTLS/include/mbedtls/aes.h
+/Libraries/mbedTLS/include/mbedtls/aesni.h
+/Libraries/mbedTLS/include/mbedtls/arc4.h
+/Libraries/mbedTLS/include/mbedtls/aria.h
+/Libraries/mbedTLS/include/mbedtls/asn1.h
+/Libraries/mbedTLS/include/mbedtls/asn1write.h
+/Libraries/mbedTLS/include/mbedtls/base64.h
+/Libraries/mbedTLS/include/mbedtls/bignum.h
+/Libraries/mbedTLS/include/mbedtls/blowfish.h
+/Libraries/mbedTLS/include/mbedtls/bn_mul.h
+/Libraries/mbedTLS/include/mbedtls/camellia.h
+/Libraries/mbedTLS/include/mbedtls/ccm.h
+/Libraries/mbedTLS/include/mbedtls/certs.h
+/Libraries/mbedTLS/include/mbedtls/chacha20.h
+/Libraries/mbedTLS/include/mbedtls/chachapoly.h
+/Libraries/mbedTLS/include/mbedtls/check_config.h
+/Libraries/mbedTLS/include/mbedtls/cipher.h
+/Libraries/mbedTLS/include/mbedtls/cipher_internal.h
+/Libraries/mbedTLS/include/mbedtls/cmac.h
+/Libraries/mbedTLS/include/mbedtls/compat-1.3.h
+/Libraries/mbedTLS/include/mbedtls/config.h
+/Libraries/mbedTLS/include/mbedtls/ctr_drbg.h
+/Libraries/mbedTLS/include/mbedtls/debug.h
+/Libraries/mbedTLS/include/mbedtls/des.h
+/Libraries/mbedTLS/include/mbedtls/dhm.h
+/Libraries/mbedTLS/include/mbedtls/ecdh.h
+/Libraries/mbedTLS/include/mbedtls/ecdsa.h
+/Libraries/mbedTLS/include/mbedtls/ecjpake.h
+/Libraries/mbedTLS/include/mbedtls/ecp.h
+/Libraries/mbedTLS/include/mbedtls/ecp_internal.h
+/Libraries/mbedTLS/include/mbedtls/entropy.h
+/Libraries/mbedTLS/include/mbedtls/entropy_poll.h
+/Libraries/mbedTLS/include/mbedtls/error.h
+/Libraries/mbedTLS/include/mbedtls/gcm.h
+/Libraries/mbedTLS/include/mbedtls/havege.h
+/Libraries/mbedTLS/include/mbedtls/hkdf.h
+/Libraries/mbedTLS/include/mbedtls/hmac_drbg.h
+/Libraries/mbedTLS/include/mbedtls/md.h
+/Libraries/mbedTLS/include/mbedtls/md2.h
+/Libraries/mbedTLS/include/mbedtls/md4.h
+/Libraries/mbedTLS/include/mbedtls/md5.h
+/Libraries/mbedTLS/include/mbedtls/md_internal.h
+/Libraries/mbedTLS/include/mbedtls/memory_buffer_alloc.h
+/Libraries/mbedTLS/include/mbedtls/net.h
+/Libraries/mbedTLS/include/mbedtls/net_sockets.h
+/Libraries/mbedTLS/include/mbedtls/nist_kw.h
+/Libraries/mbedTLS/include/mbedtls/oid.h
+/Libraries/mbedTLS/include/mbedtls/padlock.h
+/Libraries/mbedTLS/include/mbedtls/pem.h
+/Libraries/mbedTLS/include/mbedtls/pk.h
+/Libraries/mbedTLS/include/mbedtls/pkcs11.h
+/Libraries/mbedTLS/include/mbedtls/pkcs12.h
+/Libraries/mbedTLS/include/mbedtls/pkcs5.h
+/Libraries/mbedTLS/include/mbedtls/pk_internal.h
+/Libraries/mbedTLS/include/mbedtls/platform.h
+/Libraries/mbedTLS/include/mbedtls/platform_time.h
+/Libraries/mbedTLS/include/mbedtls/platform_util.h
+/Libraries/mbedTLS/include/mbedtls/poly1305.h
+/Libraries/mbedTLS/include/mbedtls/ripemd160.h
+/Libraries/mbedTLS/include/mbedtls/rsa.h
+/Libraries/mbedTLS/include/mbedtls/rsa_internal.h
+/Libraries/mbedTLS/include/mbedtls/sha1.h
+/Libraries/mbedTLS/include/mbedtls/sha256.h
+/Libraries/mbedTLS/include/mbedtls/sha512.h
+/Libraries/mbedTLS/include/mbedtls/ssl.h
+/Libraries/mbedTLS/include/mbedtls/ssl_cache.h
+/Libraries/mbedTLS/include/mbedtls/ssl_ciphersuites.h
+/Libraries/mbedTLS/include/mbedtls/ssl_cookie.h
+/Libraries/mbedTLS/include/mbedtls/ssl_internal.h
+/Libraries/mbedTLS/include/mbedtls/ssl_ticket.h
+/Libraries/mbedTLS/include/mbedtls/threading.h
+/Libraries/mbedTLS/include/mbedtls/timing.h
+/Libraries/mbedTLS/include/mbedtls/version.h
+/Libraries/mbedTLS/include/mbedtls/x509.h
+/Libraries/mbedTLS/include/mbedtls/x509_crl.h
+/Libraries/mbedTLS/include/mbedtls/x509_crt.h
+/Libraries/mbedTLS/include/mbedtls/x509_csr.h
+/Libraries/mbedTLS/include/mbedtls/xtea.h
+/Libraries/mbedTLS/library/.gitignore
+/Libraries/mbedTLS/library/aes.c
+/Libraries/mbedTLS/library/aesni.c
+/Libraries/mbedTLS/library/arc4.c
+/Libraries/mbedTLS/library/aria.c
+/Libraries/mbedTLS/library/asn1parse.c
+/Libraries/mbedTLS/library/asn1write.c
+/Libraries/mbedTLS/library/base64.c
+/Libraries/mbedTLS/library/bignum.c
+/Libraries/mbedTLS/library/blowfish.c
+/Libraries/mbedTLS/library/camellia.c
+/Libraries/mbedTLS/library/ccm.c
+/Libraries/mbedTLS/library/certs.c
+/Libraries/mbedTLS/library/chacha20.c
+/Libraries/mbedTLS/library/chachapoly.c
+/Libraries/mbedTLS/library/cipher.c
+/Libraries/mbedTLS/library/cipher_wrap.c
+/Libraries/mbedTLS/library/cmac.c
+/Libraries/mbedTLS/library/CMakeLists.txt
+/Libraries/mbedTLS/library/ctr_drbg.c
+/Libraries/mbedTLS/library/debug.c
+/Libraries/mbedTLS/library/des.c
+/Libraries/mbedTLS/library/dhm.c
+/Libraries/mbedTLS/library/ecdh.c
+/Libraries/mbedTLS/library/ecdsa.c
+/Libraries/mbedTLS/library/ecjpake.c
+/Libraries/mbedTLS/library/ecp.c
+/Libraries/mbedTLS/library/ecp_curves.c
+/Libraries/mbedTLS/library/entropy.c
+/Libraries/mbedTLS/library/entropy_poll.c
+/Libraries/mbedTLS/library/error.c
+/Libraries/mbedTLS/library/gcm.c
+/Libraries/mbedTLS/library/havege.c
+/Libraries/mbedTLS/library/hkdf.c
+/Libraries/mbedTLS/library/hmac_drbg.c
+/Libraries/mbedTLS/library/Makefile
+/Libraries/mbedTLS/library/md.c
+/Libraries/mbedTLS/library/md2.c
+/Libraries/mbedTLS/library/md4.c
+/Libraries/mbedTLS/library/md5.c
+/Libraries/mbedTLS/library/md_wrap.c
+/Libraries/mbedTLS/library/memory_buffer_alloc.c
+/Libraries/mbedTLS/library/net_sockets.c
+/Libraries/mbedTLS/library/nist_kw.c
+/Libraries/mbedTLS/library/oid.c
+/Libraries/mbedTLS/library/padlock.c
+/Libraries/mbedTLS/library/pem.c
+/Libraries/mbedTLS/library/pk.c
+/Libraries/mbedTLS/library/pkcs11.c
+/Libraries/mbedTLS/library/pkcs12.c
+/Libraries/mbedTLS/library/pkcs5.c
+/Libraries/mbedTLS/library/pkparse.c
+/Libraries/mbedTLS/library/pkwrite.c
+/Libraries/mbedTLS/library/pk_wrap.c
+/Libraries/mbedTLS/library/platform.c
+/Libraries/mbedTLS/library/platform_util.c
+/Libraries/mbedTLS/library/poly1305.c
+/Libraries/mbedTLS/library/ripemd160.c
+/Libraries/mbedTLS/library/rsa.c
+/Libraries/mbedTLS/library/rsa_internal.c
+/Libraries/mbedTLS/library/sha1.c
+/Libraries/mbedTLS/library/sha256.c
+/Libraries/mbedTLS/library/sha512.c
+/Libraries/mbedTLS/library/ssl_cache.c
+/Libraries/mbedTLS/library/ssl_ciphersuites.c
+/Libraries/mbedTLS/library/ssl_cli.c
+/Libraries/mbedTLS/library/ssl_cookie.c
+/Libraries/mbedTLS/library/ssl_srv.c
+/Libraries/mbedTLS/library/ssl_ticket.c
+/Libraries/mbedTLS/library/ssl_tls.c
+/Libraries/mbedTLS/library/threading.c
+/Libraries/mbedTLS/library/timing.c
+/Libraries/mbedTLS/library/version.c
+/Libraries/mbedTLS/library/version_features.c
+/Libraries/mbedTLS/library/x509.c
+/Libraries/mbedTLS/library/x509write_crt.c
+/Libraries/mbedTLS/library/x509write_csr.c
+/Libraries/mbedTLS/library/x509_create.c
+/Libraries/mbedTLS/library/x509_crl.c
+/Libraries/mbedTLS/library/x509_crt.c
+/Libraries/mbedTLS/library/x509_csr.c
+/Libraries/mbedTLS/library/xtea.c
+
+TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
+
+1. Definitions.
+
+"License" shall mean the terms and conditions for use, reproduction, and
+distribution as defined by Sections 1 through 9 of this document.
+
+"Licensor" shall mean the copyright owner or entity authorized by the copyright
+owner that is granting the License.
+
+"Legal Entity" shall mean the union of the acting entity and all other entities
+that control, are controlled by, or are under common control with that entity.
+For the purposes of this definition, "control" means (i) the power, direct or
+indirect, to cause the direction or management of such entity, whether by
+contract or otherwise, or (ii) ownership of fifty percent (50%) or more of the
+outstanding shares, or (iii) beneficial ownership of such entity.
+
+"You" (or "Your") shall mean an individual or Legal Entity exercising permissions
+granted by this License.
+
+"Source" form shall mean the preferred form for making modifications, including
+but not limited to software source code, documentation source, and configuration
+files.
+
+"Object" form shall mean any form resulting from mechanical transformation or
+translation of a Source form, including but not limited to compiled object code,
+generated documentation, and conversions to other media types.
+
+"Work" shall mean the work of authorship, whether in Source or Object form, made
+available under the License, as indicated by a copyright notice that is included
+in or attached to the work (an example is provided in the Appendix below).
+
+"Derivative Works" shall mean any work, whether in Source or Object form, that is
+based on (or derived from) the Work and for which the editorial revisions,
+annotations, elaborations, or other modifications represent, as a whole, an
+original work of authorship. For the purposes of this License, Derivative Works
+shall not include works that remain separable from, or merely link (or bind by
+name) to the interfaces of, the Work and Derivative Works thereof.
+
+"Contribution" shall mean any work of authorship, including the original version
+of the Work and any modifications or additions to that Work or Derivative Works
+thereof, that is intentionally submitted to Licensor for inclusion in the Work by
+the copyright owner or by an individual or Legal Entity authorized to submit on
+behalf of the copyright owner. For the purposes of this definition, "submitted"
+means any form of electronic, verbal, or written communication sent to the
+Licensor or its representatives, including but not limited to communication on
+electronic mailing lists, source code control systems, and issue tracking systems
+that are managed by, or on behalf of, the Licensor for the purpose of discussing
+and improving the Work, but excluding communication that is conspicuously marked
+or otherwise designated in writing by the copyright owner as "Not a
+Contribution."
+
+"Contributor" shall mean Licensor and any individual or Legal Entity on behalf of
+whom a Contribution has been received by Licensor and subsequently incorporated
+within the Work.
+
+2. Grant of Copyright License.
+
+Subject to the terms and conditions of this License, each Contributor hereby
+grants to You a perpetual, worldwide, non-exclusive, no-charge, royalty-free,
+irrevocable copyright license to reproduce, prepare Derivative Works of, publicly
+display, publicly perform, sublicense, and distribute the Work and such
+Derivative Works in Source or Object form.
+
+3. Grant of Patent License.
+
+Subject to the terms and conditions of this License, each Contributor hereby
+grants to You a perpetual, worldwide, non-exclusive, no-charge, royalty-free,
+irrevocable (except as stated in this section) patent license to make, have made,
+use, offer to sell, sell, import, and otherwise transfer the Work, where such
+license applies only to those patent claims licensable by such Contributor that
+are necessarily infringed by their Contribution(s) alone or by combination of
+their Contribution(s) with the Work to which such Contribution(s) was submitted.
+If You institute patent litigation against any entity (including a cross-claim or
+counterclaim in a lawsuit) alleging that the Work or a Contribution incorporated
+within the Work constitutes direct or contributory patent infringement, then any
+patent licenses granted to You under this License for that Work shall terminate
+as of the date such litigation is filed.
+
+4. Redistribution.
+
+You may reproduce and distribute copies of the Work or Derivative Works thereof
+in any medium, with or without modifications, and in Source or Object form,
+provided that You meet the following conditions:
+
+a. You must give any other recipients of the Work or Derivative Works a copy of
+   this License; and
+
+b. You must cause any modified files to carry prominent notices stating that You
+   changed the files; and
+
+c. You must retain, in the Source form of any Derivative Works that You
+   distribute, all copyright, patent, trademark, and attribution notices from the
+   Source form of the Work, excluding those notices that do not pertain to any
+   part of the Derivative Works; and
+
+d. If the Work includes a "NOTICE" text file as part of its distribution, then
+   any Derivative Works that You distribute must include a readable copy of the
+   attribution notices contained within such NOTICE file, excluding those notices
+   that do not pertain to any part of the Derivative Works, in at least one of
+   the following places: within a NOTICE text file distributed as part of the
+   Derivative Works; within the Source form or documentation, if provided along
+   with the Derivative Works; or, within a display generated by the Derivative
+   Works, if and wherever such third-party notices normally appear. The contents
+   of the NOTICE file are for informational purposes only and do not modify the
+   License. You may add Your own attribution notices within Derivative Works that
+   You distribute, alongside or as an addendum to the NOTICE text from the Work,
+   provided that such additional attribution notices cannot be construed as
+   modifying the License.
+
+You may add Your own copyright statement to Your modifications and may provide
+additional or different license terms and conditions for use, reproduction, or
+distribution of Your modifications, or for any such Derivative Works as a whole,
+provided Your use, reproduction, and distribution of the Work otherwise complies
+with the conditions stated in this License.
+
+5. Submission of Contributions.
+
+Unless You explicitly state otherwise, any Contribution intentionally submitted
+for inclusion in the Work by You to the Licensor shall be under the terms and
+conditions of this License, without any additional terms or conditions.
+Notwithstanding the above, nothing herein shall supersede or modify the terms of
+any separate license agreement you may have executed with Licensor regarding such
+Contributions.
+
+6. Trademarks.
+
+This License does not grant permission to use the trade names, trademarks,
+service marks, or product names of the Licensor, except as required for
+reasonable and customary use in describing the origin of the Work and reproducing
+the content of the NOTICE file.
+
+7. Disclaimer of Warranty.
+
+Unless required by applicable law or agreed to in writing, Licensor provides the
+Work (and each Contributor provides its Contributions) on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied,
+including, without limitation, any warranties or conditions of TITLE,
+NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A PARTICULAR PURPOSE. You are
+solely responsible for determining the appropriateness of using or redistributing
+the Work and assume any risks associated with Your exercise of permissions under
+this License.
+
+8. Limitation of Liability.
+
+In no event and under no legal theory, whether in tort (including negligence),
+contract, or otherwise, unless required by applicable law (such as deliberate and
+grossly negligent acts) or agreed to in writing, shall any Contributor be liable
+to You for damages, including any direct, indirect, special, incidental, or
+consequential damages of any character arising as a result of this License or out
+of the use or inability to use the Work (including but not limited to damages for
+loss of goodwill, work stoppage, computer failure or malfunction, or any and all
+other commercial damages or losses), even if such Contributor has been advised of
+the possibility of such damages.
+
+9. Accepting Warranty or Additional Liability.
+
+While redistributing the Work or Derivative Works thereof, You may choose to
+offer, and charge a fee for, acceptance of support, warranty, indemnity, or other
+liability obligations and/or rights consistent with this License. However, in
+accepting such obligations, You may act only on Your own behalf and on Your sole
+responsibility, not on behalf of any other Contributor, and only if You agree to
+indemnify, defend, and hold each Contributor harmless for any liability incurred
+by, or claims asserted against, such Contributor by reason of your accepting any
+such warranty or additional liability.
+
+END OF TERMS AND CONDITIONS
+---------------------------------------------------------------------------------
