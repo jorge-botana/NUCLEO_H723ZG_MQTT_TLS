@@ -1,0 +1,149 @@
+ ------- MQTT/TLS demo v1.0 -------
+
+ - Autor        : Jorge Botana
+ - Plataforma   : NUCLEO-H723ZG
+ - Semilla      : 0286879759
+
+ - Inicializando RTOS .......... ok
+ -> FreeRTOS V10.4.4
+ -> CMSIS-RTOS2 wrapper
+
+ - Inicializando TCP/IP ........ ok
+ -> lwIP 2.1.2
+ -> MAC address : 00:C0:DF:24:BA:6B
+
+ - Esperando al cable LAN ...... ok
+
+ ---------- Cliente DHCP ----------
+
+ - Buscando servidor DHCP ............. ok
+ - Configuración de red asignada por un servidor DHCP
+ -> IP address  : 192.168.1.101
+ -> Netmask     : 255.255.255.0
+ -> Gateway     : 192.168.1.1
+
+ ---------- Cliente DNS -----------
+
+ - Preguntando a 8.8.8.8:53 ... ok
+ -> Hostname    : time.windows.com
+ -> IP address  : 20.101.57.9
+
+ ---------- Cliente NTP -----------
+
+ - Preguntando a time.windows.com:123 ... ok
+ -> Date & Time : Fri 08-10-2021 - 14:26:13
+ -> Time zone   : GMT+2
+
+ ---------- Cliente DNS -----------
+
+ - Preguntando a 8.8.8.8:53 ... ok
+ -> Hostname    : test.mosquitto.org
+ -> IP address  : 5.196.95.208
+
+ ---------- Cliente MQTT ----------
+
+ - Conectando a test.mosquitto.org:8884 ... ok
+
+ ---------- Cliente TLS -----------
+
+ - mbed TLS 2.16.11
+
+ - Inicializando los datos de la sesión TLS ...... ok
+ - Generando la semilla aleatoria ................ ok
+ - Cargando el certificado del CA de confianza ... ok
+ - Cargando el certificado del cliente ........... ok
+ - Cargando la clave privada del cliente ......... ok
+ - Creando la estructura TLS ..................... ok
+ - Realizando el handshake TLS ......................
+
+ - Cadena de confianza del servidor (depth = 1)
+ -> cert. version     : 3
+ -> serial number     : 05:8D:61:94:21:AF:76:3E:0D:84:15:E4:67:FB:8B:51:93:48:2C:0C
+ -> issuer name       : C=GB, ST=United Kingdom, L=Derby, O=Mosquitto, OU=CA, CN=mosquitto.org, emailAddress=roger@atchoo.org
+ -> subject name      : C=GB, ST=United Kingdom, L=Derby, O=Mosquitto, OU=CA, CN=mosquitto.org, emailAddress=roger@atchoo.org
+ -> issued  on        : 2020-06-09 11:06:39
+ -> expires on        : 2030-06-07 11:06:39
+ -> signed using      : RSA with SHA-256
+ -> RSA key size      : 2048 bits
+ -> basic constraints : CA=true
+ - Ok: verificación correcta
+
+ - Cadena de confianza del servidor (depth = 0)
+ -> cert. version     : 1
+ -> serial number     : 7D:D3:9B:4F:DC:5B:F7:2D:0F:0C:04:7E:B8:F3:23:9E:C1:9B:B7:B7
+ -> issuer name       : C=GB, ST=United Kingdom, L=Derby, O=Mosquitto, OU=CA, CN=mosquitto.org, emailAddress=roger@atchoo.org
+ -> subject name      : C=GB, ST=United Kingdom, L=Derby, O=Mosquitto, OU=Public server, CN=test.mosquitto.org
+ -> issued  on        : 2020-06-09 11:21:56
+ -> expires on        : 2030-06-06 11:21:56
+ -> signed using      : RSA with SHA-256
+ -> RSA key size      : 2048 bits
+ - Ok: verificación correcta
+
+ - Certificado del cliente
+ -> cert. version     : 3
+ -> serial number     : 00
+ -> issuer name       : C=GB, ST=United Kingdom, L=Derby, O=Mosquitto, OU=CA, CN=mosquitto.org, emailAddress=roger@atchoo.org
+ -> subject name      : CN=NUCLEO-H723ZG, O=TFG - Jorge Botana, C=ES
+ -> issued  on        : 2021-08-06 17:12:20
+ -> expires on        : 2021-11-04 17:12:20
+ -> signed using      : RSA with SHA-256
+ -> RSA key size      : 2048 bits
+ -> basic constraints : CA=false
+ -> key usage         : Digital Signature, Non Repudiation, Key Encipherment
+ - Ok: validado por el servidor
+
+ - Handshake TLS satisfactorio
+
+ - Enviando CONNECT ............ ok
+ - Esperando paquetes .............
+ - Recibido CONNACK
+ - Conexión aceptada
+
+ - Enviando SUBSCRIBE .......... ok
+ - Esperando paquetes .............
+ - Recibido SUBACK
+ - Suscripción aceptada : QoS 0
+
+ - Enviando PUBLISH ............ ok
+ -> [PLACA CONECTADA]
+
+ - Esperando paquetes .............
+ - Recibido PUBLISH
+ <- Hola XD
+
+ - Enviando PUBLISH ............ ok
+ -> Fri 08-10-2021 - 14:26:20
+
+ - Esperando paquetes .............
+ - Ningún paquete recibido
+ - Enviando PINGREQ ............ ok
+ - Esperando paquetes .............
+ - Recibido PINGRESP
+ - La conexión sigue activa
+
+ - Enviando PUBLISH ............ ok
+ -> Fri 08-10-2021 - 14:26:30
+
+ - Esperando paquetes .............
+ - Recibido PUBLISH
+ <- LD2OFF
+
+ - Enviando PUBLISH ............ ok
+ -> [LED 2 APAGADO]
+
+ - Esperando paquetes .............
+
+ - Botón pulsado !!!
+
+ - Enviando UNSUBSCRIBE ........ ok
+ - Esperando paquetes .............
+ - Recibido UNSUBACK
+ - Desuscripción aceptada
+
+ - Enviando PUBLISH ............ ok
+ -> [PLACA DESCONECTADA]
+
+ - Enviando DISCONNECT ......... ok
+ - Cerrando conexión ........... ok
+
+ ------ Programa finalizado -------
